@@ -35,3 +35,4 @@ DEPENDENCIES
   jekyll
   nokogiri
   sass
+  i18n
