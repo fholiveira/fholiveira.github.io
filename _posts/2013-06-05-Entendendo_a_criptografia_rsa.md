@@ -23,14 +23,14 @@ Esta é a parte legal. Com o RSA eu tenho duas chaves: uma pública e uma privad
 
 Usando ainda a ideia do exemplo anterior, para a Lambda SP mandar uma mensagem para a Lambda RJ, basta que SP criptografe a mensagem com a chave pública da Lambda RJ e a envie. Somente o RJ conseguirá ler mensagem pois só eles tem a chave privada necessária para descriptografar a mensagem.
 
-O RSA foi construído sobre uma das áreas mais clássicas da matemática, a Teoria dos números. Ele se baseia na dificuldade em fatorar um número em seus componentes primos. Primeiro vamos lembrar que um número primo é um número que só pode ser dividido por ele mesmo e por 1 (numa divisão exata, sem números quebrados); segundo, temos que lembrar como descobrir os fatores primos de um número.
+O RSA foi construído sobre uma das áreas mais clássicas da matemática, a [Teoria dos números][1]. Ele se baseia na dificuldade em fatorar um número em seus componentes primos. Primeiro vamos lembrar que um número primo é um número que só pode ser dividido por ele mesmo e por 1 (numa divisão exata, sem números quebrados); segundo, temos que lembrar como [descobrir os fatores primos de um número][2].
 
-Segundo o Teorema Fundamental da Aritmética todo número inteiro positivo maior que 1 pode ser decomposto de forma única em um produto de números primos, por exemplo:
+Segundo o [Teorema Fundamental da Aritmética][3] todo número inteiro positivo maior que 1 pode ser decomposto de forma única em um produto de números primos, por exemplo:
 
     26 = 2 * 13
     44 = 2 * 2 * 11
 
-Fatorar números pequenos é algo simples, mas fatorar números grandes é bem difícil e demorado, pois este é um problema que não pode ser resolvido em um tempo polinomial determinístico, ou falando de forma bem simplificada, não há uma fórmula para isto.
+Fatorar números pequenos é algo simples, mas fatorar números grandes é bem difícil e demorado, pois este é um problema que não pode ser resolvido em um [tempo polinomial determinístico][4], ou falando de forma bem simplificada, não há uma fórmula para isto.
 
 E como o RSA usa isto tudo? As chaves pública e privada são geradas com base na multiplicação de dois números primos. O resultado desta multiplicação será público mas, se o número for grande o suficiente, fatorar este número para descobrir os primos que multiplicamos para formá-lo pode demorar anos.
 
@@ -40,3 +40,7 @@ Preparem papel, caneta e calculadora pois no próximo post vamos executar o pass
 
 
 [diffie-hellman]: /img/diffie-hellman.png "Ideia geral de criptografia de chave assimétrica, semelhante ao método Diffie-Hellman"
+[1]: http://pt.wikipedia.org/wiki/Teoria_dos_n%C3%BAmeros
+[2]: http://www.somatematica.com.br/fundam/decomp.php
+[3]: http://pt.wikipedia.org/wiki/Teorema_Fundamental_da_Aritm%C3%A9tica
+[4]: http://pt.wikipedia.org/wiki/NP_(complexidade)
