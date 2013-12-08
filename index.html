@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Mainpage
+title: Fernando Oliveira
 ---
 <!-- Content
     ================================================== -->
@@ -16,7 +16,7 @@ title: Mainpage
     		  <li>
     		    <a href="{{ post.url }}">
     		        <h3>{{ post.title }}</h3>
-                <time>{{ post.date | date: "%d %B %Y" }}</time>
+                <time>{{ post.date | localize: "%d de %B de %Y" }}</time>
                 <div>{{ post.content |truncatehtml | truncatewords: 30 }}</div>
     		    </a>
     		  </li>
