@@ -1,9 +1,8 @@
 /* TEAM */
                             
-Your title: Your name.                        
-Site: email, link to a contact form, etc.                         
-Twitter: your Twitter username.                        
-Location: City, Country.
+Your title: Fernando Oliveira                        
+Site: fernando@fholiveira.com                     
+Location: São Paulo, Brasil
 
 
 /* THANKS */
