@@ -12,8 +12,6 @@ module Jekyll
       load_translations
       format = (format =~ /^:(\w+)/) ? $1.to_sym : format
       I18n.l input, :format => format
-
-        "Salcifufu"
     end
 
     def load_translations
