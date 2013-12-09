@@ -44,6 +44,31 @@ hr{
     background: #778da8;
 }
 
+table
+{
+	margin: 5px;
+	border-collapse: collapse;
+	text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+th
+{
+	color: $gray;
+	padding: 10px 15px;
+	border-bottom: 2px solid $grayLight;
+}
+td
+{
+	border-bottom: 1px solid $grayLight;
+	color: $gray;
+	padding: 6px 15px;
+}
+tbody tr:hover td
+{
+	color: $grayDark;
+}
+
 // 1. a Font
 // --------------------------------------------------
 
@@ -204,10 +229,18 @@ hr{
         border-bottom: 1px solid lighten($grayLight, 20%);
     }
 
+    h4{
+        margin:1em 0 .3em 0;
+    }
+
+    h3{
+        margin:1.5em 0 .5em 0;
+    }
+
     h2{
         font-family: 'Raleway';
         font-weight: normal;
-        font-size: 5em;
+        font-size: 3em;
         padding: 1.1em 0 0.2em;
         letter-spacing: 0.05em;
         color: $greenSpotify;
