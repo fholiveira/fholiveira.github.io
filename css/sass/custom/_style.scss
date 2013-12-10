@@ -91,7 +91,7 @@ tbody tr:hover td
             color: $grayDark;
             text-decoration:none;
             @include opacity(50);
-        }    
+        }   
 }
 
 // 2. Header Section
@@ -111,8 +111,7 @@ tbody tr:hover td
         font-family: 'Raleway';
         text-transform: uppercase;
         font-weight: normal;
-        font-size: 4.1em;  
-        margin-top: 1em;
+        font-size: 4.1em;
         letter-spacing: 0.04em;
         color: $greenSpotify;
     }
@@ -121,11 +120,38 @@ tbody tr:hover td
         font-size: 3.6em;  
     }
 
-    .sub-title{
+    .blog-subtitle{
         font-family: 'Raleway';
         font-size: 1.8em;
-        margin: 0.8em 0 3em;
+        font-weight: normal;
+        margin-top: .5em;
+        margin-bottom: 2em;
         color: $grayLight;
+    }
+
+    nav{        
+        text-align: right;
+        margin-top: .5em;
+        margin-right: 1.5em;
+        font-family: 'Raleway';
+        font-size: 1.2em;
+
+        ul {
+	        padding:0px;
+	        margin:0px;
+	        list-style:none;
+        }
+
+        li > a {             
+            color: $greenSpotify;
+            @extend .a-hover; 
+        }
+
+        a.about:link, a.about:visited{
+            color: $gray;
+        }
+
+        ul li{ display: inline; }
     }
 }
 
@@ -141,8 +167,8 @@ tbody tr:hover td
 
     li{
         border-bottom: 1px solid lighten($grayLight, 20%);
-        margin-bottom: 3em;
-        padding-bottom: 2.2em;
+        margin-bottom: 2em;
+        padding-bottom: 1em;
     }
 
     time{
@@ -215,7 +241,7 @@ tbody tr:hover td
      } 
 }
 
-.post{
+.article{
 
     width: 40em;
     float: right;
@@ -255,6 +281,11 @@ tbody tr:hover td
         line-height: 1.9em;
         font-size: 1.15em;
         color: darken($grayLight, 10%);
+    }
+
+    .post-date{
+        text-align: right;
+        color: $gray
     }
 }
 

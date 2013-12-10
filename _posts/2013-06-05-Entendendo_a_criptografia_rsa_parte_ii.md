@@ -8,9 +8,9 @@ No [post anterior][1] eu falei sobre como era o funcionamento do RSA e se você 
 
 Vamos criar uma tabela atribuindo a cada letra um número. Isto é necessário pois o RSA codifica somente números. Poderíamos usar a tabela ASCII, mas para facilitar as contas vamos criar a nossa própria:
 
-|  A  |  B  |  C  |  D  |  E  |  F  |  G  |  H  |
-|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:| 
-|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |
+|  A  |  B  |  C  |  D  |  E  |  F  |  G  |  H  | |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|-|
+|  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  | |
 
 
 |  I  |  J  |  K  |  L  |  M  |  N  |  O  |  P  |  Q  |

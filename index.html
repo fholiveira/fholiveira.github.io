@@ -8,15 +8,21 @@ title: Fernando Oliveira
     <main class="container">
     	<div class="row-fluid">
     		<section class="content">
-    		  <h1 class="blog-title">Fernando "F.H." Oliveira</h1>
-          <div class="sub-title">Sobre programação, literatura e o que mais eu quiser</div>
+                <nav>                
+                    <ul>
+                        <li><a href="/">Posts</a></li> | 
+                        <li><a href="/about_me.html">Sobre mim</a></li>
+                    </ul>
+                </nav>
+                <h1 class="blog-title">Fernando "F.H." Oliveira</h1>
+                <h2 class="blog-subtitle">Sobre programação, literatura e o que mais eu quiser</h2>                
     		</section>
     		<ul class="entries">
     		{% for post in paginator.posts %}
     		  <li>
     		    <a href="{{ post.url }}">
     		        <h3>{{ post.title }}</h3>
-                <time>{{ post.date | localize: "%d de %B de %Y" }}</time>
+                <time>{{ post.date | date: "%d/%m/%Y" }}</time>
                 <div>{{ post.content |truncatehtml | truncatewords: 30 }}</div>
     		    </a>
     		  </li>

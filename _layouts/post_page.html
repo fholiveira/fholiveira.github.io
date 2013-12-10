@@ -1,17 +1,8 @@
 ---
-layout: default
+layout: page
 ---
-<main class="content">
-    <section class="container">
-    	<div class="row-fluid">
-    		<article class="home-icon">
-				<a href="/">
-					<i class="icon-home"></i> 
-				</a>
-			</article>
-			<article class="post">
 				<h2 class="content">{{page.title}}</h2>
-				<h5>{{ page.date | localize: "%d de %B de %Y" }}</h5>
+				<h5 class="post-date">{{ page.date | date: "%d/%m/%Y" }}</h5>
 				<section>
 					{{ content }}
 					<hr>
@@ -37,7 +28,3 @@ layout: default
                     <noscript>Por favor habilite o Javascript para ver os <a href="http://disqus.com/?ref_noscript">comentários.</a></noscript>
                     <a href="http://disqus.com" class="dsq-brlink">Comantários fornececidos por <span class="logo-disqus">Disqus</span></a>
                 {% endif %}
-			</article>
-		</div>
-	</section>
-</main>
