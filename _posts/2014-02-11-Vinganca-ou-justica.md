@@ -13,7 +13,7 @@ O simples fato de que a pena não é determinada pela vítima e sim pela socieda
 
 Ao meu ver a justiça seria fazer com que o infrator reparasse os danos causados á vitima e que fosse isolado da sociedade por um tempo não arbitrário até que estivesse em condições de ser reintegrado. Ou seja, isolado pelo tempo necessário para que ele deixe de se tornar uma ameaça.
 
-Uma implicação direta deste raciocínio é que a cadeia não mais deve ser um ambiente de sofrimento, mas um ambiente de reclusão. Os infratores não estão ali para serem punidos; estão ali porque eles representam um rico à sociedade - e este risco deve ser controlado. Neste local deverão haver pessoas que ajudariam os criminosos a se tornarem aptos novamente à vida social.
+Uma implicação direta deste raciocínio é que a cadeia não mais deve ser um ambiente de sofrimento, mas um ambiente de reclusão. Os infratores não estão ali para serem punidos; estão ali porque eles representam um risco à sociedade - e este risco deve ser controlado. Neste local deverão haver pessoas que ajudariam os criminosos a se tornarem aptos novamente à vida social.
 
 Um ponto sensível é que existem crimes irreparáveis - assassinato, por exemplo. Nestes casos, como não há o que fazer para reparar a vítima, deveriamos focar na recuperacão do indivíduo. As pessoas próximas a vítima, em um caso desses, dificilmente conseguiriam ter este tipo de visão. Mas a sociedade, que está fora do núcleo de dor, deve se perguntar: qual a utilidade de punir o criminoso? Punição e justiça tem uma relação muito fraca, se é que tem alguma... Punição não necessariamente previne reincidência, não ressucita a vítima e não reabilita o criminoso. 
 
