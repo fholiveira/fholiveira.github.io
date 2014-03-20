@@ -7,7 +7,7 @@ comments: true
 Últimamente tenho programado bastante em Python. Uma coisa que me incomodava muito ao lidar com aplicações web em Python era o servidor HTTP de desenvolvimento. Lidando com o [Flask][1] eu descobri o excelente servidor do projeto [Werkzeug][2]... só faltava uma coisa pra ele ficar 100%: logs mais legíveis.
 Apesar de ele logar todas as requisições e erros, os logs eram muito chatos de ler. Eu mudei um pouco o layout deles, coloquei umas cores... e nasceu o [wando-server][3]. Acho que ficou melhor:
 
-[Logs HTTP do wando-server][logs]
+![Logs HTTP do wando-server][logs]
 
 Para colorir eu uso os códigos de cores ANSI; graças a biblioteca [colorama][4] os códigos funcionam inclusive no Windows (que insiste em não seguir certos padrões).
 
