@@ -10,9 +10,10 @@
     {% if page.date %}
       <meta property="og:title" content="{{ page.title }}">
       <meta property="og:type" content="article">
-      <meta property="og:url" content="http://fholiveira.com{{ page.url }}">
+      <meta property="og:url" content="http://fholiveira.com{{ page.url }}/">
       <meta property="og:description" content="{{ page.content |truncatehtml | truncatewords: 30 }}">
     {% else %}
+      <meta property="og:url" content="http://fholiveira.com/">
       <meta property="og:type" content="website">
       <meta property="og:title" content="Fernando Oliveira">
       <meta property="og:description" content="Sobre programação, literatura e o que mais eu quiser">
