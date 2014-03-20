@@ -12,7 +12,7 @@
       <meta property="og:title" content="{{ page.title }}">
       <meta property="og:type" content="article">
       <meta property="og:url" content="http://fholiveira.com{{ page.url }}">
-      <meta property="og:description" content="{{ page.content | replace:'more start -->','' | replace:'<!-- more end','' | truncatewords: 50 }}">
+      <meta property="og:description" content="{{ post.content |truncatehtml | truncatewords: 30 }}">
     {% else %}
       <meta property="og:type" content="website">
       <meta property="og:title" content="Fernando Oliveira">
