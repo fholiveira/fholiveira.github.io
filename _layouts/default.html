@@ -1,24 +1,23 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="pt" xmlns:og="http://ogp.me/ns#">
 	<head>
 		<meta charset="utf-8"/>
-		<title>{% if page.title %} {{ page.title }} {% endif %}</title>
+		<title>{{ page.title }}</title>
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    {% if page.date %}
-        <meta content="{{ page.date | date_to_xmlschema }}" property="article:published_time">
-        <meta content="Fernando Oliveira" property="article:author">
-    {% endif %}
     <meta content="Fernando Oliveira" property="og:site_name">
+    <meta content="/ico/favicon.png" property="og:image" />
     {% if page.title %}
-      <meta content="{{ page.title }}" property="og:title">
-      <meta content="article" property="og:type">
+      <meta property="article:author" content="Fernando Oliveira" />
+      <meta property="og:title" content="{{ page.title }}" />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="http://fholiveira.com{{ page.url }}" />
+      <meta property="og:description" content="{{ page.content | replace:'more start -->','' | replace:'<!-- more end','' | truncatewords: 50 }}" />
     {% else %}
-      <meta content="website" property="og:type">
-      <meta content="Fernando Oliveira" property="og:title">
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Fernando Oliveira" />
+      <meta property="og:description" content="Sobre programação, literatura e o que mais eu quiser" />
     {% endif %}
-		<meta name="description" content="Sobre programação, literatura e o que mais eu quiser">
-    <meta content="/ico/favicon.png" property="og:image">
 		<link rel="stylesheet" href="/css/style.css">
 		<!--[if IE 7]>
 			<html class="ie7"> 
