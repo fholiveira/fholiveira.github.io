@@ -1,22 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt">
 	<head>
-		<meta charset="utf-8">
+		<meta charset="utf-8" />
 		<title>{{ page.title }}</title>
 		<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta content="Fernando Oliveira" property="og:site_name">
-    <meta content="http://fholiveira.com/ico/facebook-icon.png" property="og:image">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content="Fernando Oliveira" property="og:site_name" />
+    <meta content="http://fholiveira.com/ico/facebook-icon.png" property="og:image" />
     {% if page.date %}
-      <meta property="og:title" content="{{ page.title }}">
-      <meta property="og:type" content="article">
-      <meta property="og:url" content="http://fholiveira.com{{ page.url }}">
-      <meta property="og:description" content="{{ page.content |truncatehtml | truncatewords: 30 }}">
+      <meta property="og:title" content="{{ page.title }}" />
+      <meta property="og:type" content="article" />
+      <meta property="og:url" content="http://fholiveira.com{{ page.url }}" />
+      <meta property="og:description" content="{{ page.content |truncatehtml | truncatewords: 30 }}" />
     {% else %}
-      <meta property="og:url" content="http://fholiveira.com">
-      <meta property="og:type" content="website">
-      <meta property="og:title" content="Fernando Oliveira">
-      <meta property="og:description" content="Sobre programação, literatura e o que mais eu quiser">
+      <meta property="og:url" content="http://fholiveira.com" />
+      <meta property="og:type" content="website" />
+      <meta property="og:title" content="Fernando Oliveira" />
+      <meta property="og:description" content="Sobre programação, literatura e o que mais eu quiser" />
     {% endif %}
 		<link rel="stylesheet" href="/css/style.css">
 		<!--[if IE 7]>
